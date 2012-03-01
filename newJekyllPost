@@ -1,2 +1,5 @@
-I'll start posting this week (hopefully) some small js games mad with the Cangatoo editor.
-The first will be a click as fast as you can game :) . Very simple, but it will  put Cangatoo to the test. 
+#!/bin/bash
+newPostFile=_posts/$(date +"%Y-%m-%d-$1.html")
+vim $newPostFile
+git add $newPostFile
+git commit -m"$1"
