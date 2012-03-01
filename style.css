@@ -68,7 +68,7 @@ input {
 #sideRight {
 	float: left;
 	margin-right: -3px;
-	width: 250px;
+	width: 100%;
 	margin-left: -250px;
 	position: relative;
 	background: #FFACAA;
