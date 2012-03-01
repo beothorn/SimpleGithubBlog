@@ -1,0 +1,5 @@
+#!/bin/bash
+newPostFile=$(date +"%Y-%m-%d-$1.html")
+vim $newPostFile
+git add $newPostFile
+git commit -m"$1"
