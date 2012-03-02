@@ -1,3 +1,12 @@
-<canvas id="Canvas" class="window" title="Canvas" style="left: 496px; top: 89px;" width="500" height="300">
+<canvas onLoad="var canvas = document.getElementById("hello");
+    var context = canvas.getContext("2d");
+    var x = 80;
+    var y = 110;
+ 
+    context.font = "60pt Calibri";
+    context.lineWidth = 3;
+    context.strokeStyle = "blue"; // stroke color
+    context.strokeText("Hello World!", x, y);
+};" id="hello" class="window" title="Canvas" style="left: 496px; top: 89px;" width="500" height="300">
 		<p>Your browser does not support the canvas element, this is supposed to be a canvas game editor so get the latest firefox!</p>
 </canvas>
