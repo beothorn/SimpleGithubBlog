@@ -34,8 +34,8 @@ input {
 /* Header
 -----------------------------------------------------------------------------*/
 #header {
-	border-bottom:2px solid #ff0000;
-	background: #FFE680;
+	padding:25px 50px;
+	border-bottom:2px solid #060606;
 }
 
 
@@ -71,12 +71,12 @@ input {
 	width: 250px;
 	margin-left: -250px;
 	position: relative;
-	background: #FFACAA;
+	border-left:2px solid #060606;
 }
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-	background: #BFF08E;
+	border-top:2px solid #060606;
 }
