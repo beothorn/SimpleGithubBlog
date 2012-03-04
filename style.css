@@ -34,6 +34,8 @@ input {
 /* Header
 -----------------------------------------------------------------------------*/
 #header {
+	border-style:solid;
+	border-bottom:thick dotted #ff0000;
 	background: #FFE680;
 }
 
