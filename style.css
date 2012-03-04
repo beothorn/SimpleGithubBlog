@@ -25,6 +25,20 @@ img {
 input {
 	vertical-align: middle;
 }
+
+.blogTitle{
+}
+
+.postTitle{
+	text-decoration: none;
+}
+
+.postDate{
+}
+
+.postText{
+}
+
 #wrapper {
 	width: 100%;
 	min-width: 1000px;

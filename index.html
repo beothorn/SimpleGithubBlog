@@ -5,9 +5,9 @@ title: Home page
 {% for post in site.posts limit: 5 %}
 <div class="post_info">
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		<span>({{ post.date | date:"%Y-%m-%d" }})</span>
+		<a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
+		<span class="postDate">({{ post.date | date:"%Y-%m-%d" }})</span>
 	</li>
-	</br> <em>{{ post.content }} </em>
+	</br> <span class="postText">{{ post.content }} </span>
 </div>
 {% endfor %}
