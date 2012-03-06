@@ -31,7 +31,8 @@ input {
 
 .postTitle{
 	text-decoration: none;
-	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	color: black;
+	font: 18px Arial, Tahoma, Verdana, sans-serif;
 }
 
 .postDate{

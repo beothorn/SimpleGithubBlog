@@ -27,7 +27,12 @@
 		</div><!-- #container-->
 
 		<aside id="sideRight">
-			Old posts
+			{% for post in site.posts %}
+			<div class="archive">
+				<span class="archivedDate">({{ post.date | date:"%Y-%m-%d" }})</span>
+				<a class="archivedTitle" href="{{ post.url }}">{{ post.title }}</a>
+			</div>
+			{% endfor %}
 		</aside><!-- #sideRight -->
 
 	</section><!-- #middle-->
