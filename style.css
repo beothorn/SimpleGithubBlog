@@ -1,12 +1,17 @@
 body{
 	margin:40px
 	auto;
-	max-width:650px;
+	max-width:800px;
 	line-height:1.6;
 	font-size:18px;
 	color:#444;
 	padding:0
 	10px
+}
+
+#middle{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
 }
 
 .postTitleLink {

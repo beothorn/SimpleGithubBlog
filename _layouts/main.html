@@ -16,7 +16,7 @@
 		<h1 id="blogTitle">{{ site.name }}</h1>
 	</header>
 
-	<section id="middle">
+	<div id="middle">
 
 		<div id="container">
 			<div id="content">	
@@ -24,16 +24,16 @@
 			</div>
 		</div>
 
-		<aside id="sideRight">
+		<div id="sideRight">
 			{% for post in site.posts %}
 			<div class="archive">
-				<span class="archivedDate">({{ post.date | date:"%Y-%m-%d" }})</span>
+				<span class="archivedDate">{{ post.date | date:"%Y-%m-%d" }}</span>
 				<a class="archivedTitle" href="{{ post.url }}">{{ post.title }}</a>
 			</div>
 			{% endfor %}
-		</aside>
+		</div>
 
-	</section>
+	</div>
 
 	<footer id="footer">
 		All content released under public domain.
