@@ -4,9 +4,9 @@ title: Home page
 ---
 {% for post in site.posts limit: 5 %}
 <div class="post_info">
-	<a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
-	<span class="postDate">({{ post.date | date:"%Y-%m-%d" }})</span>
-	<br> <span class="postText">{{ post.content }} </span>
+	<h2><a class="postTitle" href="{{ post.url }}">{{ post.title }}</a></h2>
+	<span class="postDate">{{ post.date | date:"%Y-%m-%d" }}</span>
+	<div class="postText">{{ post.content }} </div>
 </div>
 <hr>
 {% endfor %}
