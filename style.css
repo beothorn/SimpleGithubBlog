@@ -4,9 +4,9 @@ body{
 	max-width:800px;
 	line-height:1.6;
 	font-size:18px;
-	color:#444;
-	padding:0
-	10px
+	padding:0 10px;
+	color: #bfbfbf;
+	background: #1c1c1c;
 }
 
 #middle{
@@ -29,7 +29,7 @@ body{
 
 .archivedTitle {
     text-decoration: none;
-    color: darkblue;
+    color: #5992b5;
     font-size: 14px;
 }
 
@@ -39,7 +39,7 @@ body{
 
 .postTitleLink {
     text-decoration: none;
-    color: #444;
+	color: #bfbfbf;
 	font-size: 24px;
 	margin: 0px;
 }
@@ -49,7 +49,7 @@ body{
 }
 
 .postDate {
-    color: #aaa;
+    color: #919191;
     font-size: 14px;
 }
 
