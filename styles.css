@@ -24,10 +24,11 @@ body{
 }
 
 #sideRight {
-    border: solid 1px;
     margin: 10px;
 	padding: 6px;
 	height: max-content;
+	background-color: #444;
+	border-radius: 5px;
 }
 
 .archivedTitle {
