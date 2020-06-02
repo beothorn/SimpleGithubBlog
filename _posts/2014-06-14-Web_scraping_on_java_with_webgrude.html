@@ -1,0 +1,22 @@
+---
+title: Web scraping on java with webgrude
+layout: singlePost
+---
+<p>
+On this post I will show you how to scrape a fake search result page using Webgrude.
+Webgrude is a java library that uses Apache HttpComponents and Jsoup to scrape web pages and fill annotated java classes with the scrapped values.    
+</p>
+<p>
+For example, let's say you have a search result of a GET request using the url
+</p>
+
+http://www.example.com/searchTerm
+
+<script src="https://gist.github.com/beothorn/3dd3ca0ba4b86fde12a4.js"></script>
+
+<p>
+The page returned have a repeating div of class "result", each one containing two spans, the result title and the result content. The search term is in a h1 tag on the top of the page.
+Let's start by scraping the page only for the page header. The page will be mapped to this class: 
+</p>
+
+<script src="https://gist.github.com/beothorn/5d0534f527df06f32020.js"></script>
