@@ -1,4 +1,6 @@
-$text-color: #bfbfbf;
+:root {
+	--text-color: #bfbfbf;
+}
 
 body{
 	margin:40px auto;
@@ -6,7 +8,7 @@ body{
 	line-height:1.6;
 	font-size:18px;
 	padding:0 10px;
-	color: $text-color;
+	color: var(--text-color);
 	background: #1c1c1c;
 }
 
@@ -40,7 +42,7 @@ body{
 
 .postTitleLink {
     text-decoration: none;
-	color: $text-color;
+	color: var(--text-color);
 	font-size: 24px;
 	margin: 0px;
 }
