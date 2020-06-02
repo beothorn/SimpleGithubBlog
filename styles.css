@@ -12,6 +12,11 @@ body{
 	background: #1c1c1c;
 }
 
+a {
+    text-decoration: none;
+	color: var(--text-color);
+}
+
 #middle{
 	display: grid;
 	grid-template-columns: 3fr 1.5fr;
