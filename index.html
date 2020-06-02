@@ -2,7 +2,7 @@
 layout: main
 title: Home page
 ---
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 1 %}
 <div class="post_info">
 	<h2 class="postTitle"><a class="postTitleLink" href="{{ post.url }}">{{ post.title }}</a></h2>
 	<span class="postDate">{{ post.date | date:"%Y-%m-%d" }}</span>

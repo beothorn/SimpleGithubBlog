@@ -1,0 +1,60 @@
+$text-color: #bfbfbf;
+
+body{
+	margin:40px auto;
+	max-width:800px;
+	line-height:1.6;
+	font-size:18px;
+	padding:0 10px;
+	color: $text-color;
+	background: #1c1c1c;
+}
+
+#middle{
+	display: grid;
+	grid-template-columns: 3fr 1.5fr;
+}
+
+@media only screen and (max-width: 800px) {
+	#middle{
+		display: block;
+	}
+}
+
+#sideRight {
+    border: solid 1px;
+    margin: 10px;
+	padding: 6px;
+	height: max-content;
+}
+
+.archivedTitle {
+    text-decoration: none;
+    color: #5992b5;
+    font-size: 14px;
+}
+
+.archivedDate {
+    font-size: 10px;
+}
+
+.postTitleLink {
+    text-decoration: none;
+	color: $text-color;
+	font-size: 24px;
+	margin: 0px;
+}
+
+.postTitle {
+	margin-bottom: 0px;
+}
+
+.postDate {
+    color: #919191;
+    font-size: 14px;
+}
+
+.postText{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
