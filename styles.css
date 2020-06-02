@@ -40,6 +40,16 @@ body{
     font-size: 10px;
 }
 
+.post-info{
+	background-color: #444;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+    margin-bottom: 5px;
+	margin-bottom: 30px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.42);
+}
+
 .postTitleLink {
     text-decoration: none;
 	color: var(--text-color);
