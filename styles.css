@@ -22,6 +22,11 @@ img {
 	height: auto;
 }
 
+.icon {
+	width: 32px;
+	height: auto;
+}
+
 #middle{
 	display: grid;
 	grid-template-columns: 3fr 1.5fr;
