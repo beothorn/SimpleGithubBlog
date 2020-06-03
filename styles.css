@@ -46,6 +46,10 @@ img {
 	border-radius: 5px;
 }
 
+.headerLink {
+	color: var(--text-color);
+}
+
 .archivedTitle {
     font-size: 14px;
 }
